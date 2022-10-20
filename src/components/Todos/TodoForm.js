@@ -7,7 +7,7 @@ function TodoForm({ addTodo }) {
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    addTodo(text);
+    text && addTodo(text);
     setText('');
   };
 
