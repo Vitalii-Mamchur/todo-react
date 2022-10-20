@@ -1,0 +1,14 @@
+.todoForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.formInput {
+  width: 50%;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
