@@ -3,7 +3,14 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #112d49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
